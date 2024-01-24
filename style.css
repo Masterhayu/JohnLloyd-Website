@@ -305,7 +305,7 @@ footer{
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
     /* Further adjustments for very small screens (example: iPhone SE) */
     .main h2 {
         font-size: 2rem;
