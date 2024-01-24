@@ -271,7 +271,7 @@ footer{
 
     /* Adjust background size and position for smaller screens */
     .main {
-        background: url(images/pic13.jpg)no-repeat;
+        background: url(images/pic14.jpg)no-repeat;
         background-size: cover;
         background-position: center;
         text-align: left;
@@ -298,7 +298,8 @@ footer{
     .main {
         background: url(images/pic14.jpg)no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: right;
+        background-attachment: scroll;
         text-align: right;
         justify-content: flex-end;
     }
@@ -321,11 +322,8 @@ footer{
     .main {
         background: url(images/pic14.jpg)no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: right;
         text-align: right;
         justify-content: flex-end;
     }
 }
-
-
-
