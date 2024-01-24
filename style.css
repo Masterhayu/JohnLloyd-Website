@@ -322,7 +322,7 @@ footer{
     .main {
         background: url(images/pic14.jpg)no-repeat;
         background-size: cover;
-        background-position: right;
+        background-position: center;
         text-align: right;
         justify-content: flex-end;
     }
