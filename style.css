@@ -266,7 +266,6 @@ footer{
         display: inline-block; 
         font-size: 20px;
         text-transform: uppercase;
-        text-align: left;
     }
 
     /* Adjust background size and position for smaller screens */
@@ -274,7 +273,6 @@ footer{
         background: url(images/pic14.jpg)no-repeat;
         background-size: cover;
         background-position: center left;
-        text-align: left;
     }
 }
 
@@ -290,8 +288,6 @@ footer{
         display: inline-block; 
         font-size: 20px;
         text-transform: uppercase;
-        text-align: right;
-        margin-left: 57%; 
     }
 
     /* Adjust background size and position for smaller screens */
@@ -300,8 +296,6 @@ footer{
         background-size: cover;
         background-position: right;
         background-attachment: scroll;
-        text-align: right;
-        justify-content: flex-end;
     }
 }
 
@@ -324,6 +318,5 @@ footer{
         background-size: cover;
         background-position: center;
         text-align: left;
-        justify-content: flex-end;
     }
 }
