@@ -266,14 +266,15 @@ footer{
         display: inline-block; 
         font-size: 20px;
         text-transform: uppercase;
+        text-align: left;
     }
 
     /* Adjust background size and position for smaller screens */
     .main {
-        background: url(images/pic14.jpg)no-repeat;
+        background: url(images/pic13.jpg)no-repeat;
         background-size: cover;
-        background-position: right;
-        te
+        background-position: center;
+        text-align: left;
     }
 }
 
@@ -289,18 +290,21 @@ footer{
         display: inline-block; 
         font-size: 20px;
         text-transform: uppercase;
+        text-align: right;
+        margin-left: 57%; 
     }
 
     /* Adjust background size and position for smaller screens */
     .main {
-        background: url(images/pic14.jpg)no-repeat;
+        background: url(images/pic13.jpg)no-repeat;
         background-size: cover;
         background-position: right;
-        background-attachment: scroll;
+        text-align: right;
+        justify-content: flex-end;
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 375px) {
     /* Further adjustments for very small screens (example: iPhone SE) */
     .main h2 {
         font-size: 2rem;
@@ -317,7 +321,8 @@ footer{
     .main {
         background: url(images/pic14.jpg)no-repeat;
         background-size: cover;
-        background-position: center;
-        text-align: left;
+        background-position: right;
+        text-align: right;
+        justify-content: flex-end;
     }
 }
